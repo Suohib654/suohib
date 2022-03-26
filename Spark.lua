@@ -1,8 +1,8 @@
 ------------------------------------------------
--- This Source Was Developed By (Spark) @BBLBB0.--
---   This Is The Source Channel @BBLBB0 .   --
---                - Spark-                 --
---        -- https://t.me/BBLBB0 --         --
+-- This Source Was Developed By (THE KING) @@S_02y.--
+--   This Is The Source Channel @@S_02y .   --
+--                - THE KING -                 --
+--        -- https://t.me/suoyak --         --
 ------------------------------------------------ 
 URL     = require("./libs/url")
 JSON    = require("./libs/dkjson")
@@ -154,9 +154,9 @@ Managers = Redis:sismember(TheSpark.."Spark:Managers:Group"..ChatId,UserId)
 Addictive = Redis:sismember(TheSpark.."Spark:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheSpark.."Spark:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 1127044647 then
+if UserId == 1722839986 then
 Status = 'مبرمج السورس'
-elseif UserId == 1127044647 then
+elseif UserId == 1722839986 then
 Status = 'مطور السورس'
 elseif UserId == Sudo_Id then  
 Status = 'المطور الاساسي'
@@ -901,10 +901,10 @@ return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id}),LuaTele.setChatMemberSt
 elseif Statusrestricted(msg.chat_id,msg.sender.user_id).SilentGroup == true then
 return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id})
 end
-if tonumber(msg.sender.user_id) == 1127044647 then
+if tonumber(msg.sender.user_id) == 1722839986 then
 msg.Name_Controller = 'مبرمج السورس '
 msg.The_Controller = 1
-elseif tonumber(msg.sender.user_id) == 1127044647 then
+elseif tonumber(msg.sender.user_id) == 1722839986 then
 msg.Name_Controller = 'مطور السورس '
 msg.The_Controller = 1
 elseif The_ControllerAll(msg.sender.user_id) == true then  
